@@ -17,3 +17,24 @@ header section div{
     float: left;
     margin: 30px 15px ;
 }
+
+#line-of-images {
+    display: flex;
+    flex-flow: row;
+    flex-shrink: 0;
+    justify-content: flex-end;
+    align-items: center;
+    
+
+}
+#line-of-images img {
+    width: 30px;
+    height: 30px;
+    padding: 1px;
+    
+}
+
+#line-of-images img:nth-of-type(6) {
+    padding-right: 10px;
+}
+
