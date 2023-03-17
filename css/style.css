@@ -3,6 +3,10 @@ body{
     margin: auto;
 }
 
+main {
+    
+}
+
 header section{
     display: flex;
     flex-flow: row;
@@ -38,3 +42,30 @@ header section div{
     padding-right: 10px;
 }
 
+.stripe-background {
+                
+    background-image:url("img/mail-icon.png");
+    background-repeat:repeat;
+    height: 10px;
+    z-index: 1;
+}
+
+#main-header {
+    display: flex;
+    flex-flow: row;
+    padding-bottom: 30px;   
+}
+#main-header h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#main-header div {
+    width: 50%;
+    
+}
+
+#print-logo {
+    text-align: right;
+    
+}
