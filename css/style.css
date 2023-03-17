@@ -1,0 +1,19 @@
+body{
+    width: 900px;
+    margin: auto;
+}
+
+header section{
+    display: flex;
+    flex-flow: row;
+}
+
+header section div{
+    width: 50%;
+}
+
+#logoImg{
+    position: relative;
+    float: left;
+    margin: 30px 15px ;
+}
