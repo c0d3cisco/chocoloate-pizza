@@ -84,7 +84,7 @@ header section div{
     background-image: url("/img/list-bg.png");
     background-repeat: repeat-y;
     height: 300px;
-    
+   
 }
 #recipe ul {
     /* list-style: square; */
@@ -92,10 +92,15 @@ header section div{
     font-size: 1.5rem;
     background-size: 5px 5px;
     background-repeat: no-repeat;
-    padding-bottom: 33px;   
+    padding-bottom: 33px;  
+     
 }
 #recipe ul li {
     /* padding-top: 4px; */
     padding-bottom: 8px;
     
+}
+
+#second-stripe {
+    margin-top: 30px;
 }
