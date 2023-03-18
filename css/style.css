@@ -67,7 +67,19 @@ header section div{
 
 #print-logo {
     text-align: right;
+    position: relative;
     
+}
+
+#print-logo p{
+    position: relative;
+    font-size: 0.75rem;
+    margin: 5px;
+    top: 55px;
+}
+
+#print-logo img{
+    margin-right: 5px;
 }
 
 #blog {
@@ -95,6 +107,13 @@ header section div{
     padding-bottom: 33px;  
      
 }
+
+#recipe ul:last-of-type {
+width: 430px;
+padding-top: 24px;
+text-align: start;
+     
+}
 #recipe ul li {
     /* padding-top: 4px; */
     padding-bottom: 8px;
@@ -102,5 +121,60 @@ header section div{
 }
 
 #second-stripe {
-    margin-top: 30px;
+    margin: 20px 0px;
 }
+
+#main-footer{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+#main-footer div:nth-of-type(2){
+    margin-left: 10px;
+    width: 545px;
+}
+
+button{
+    background-color: rgb(189, 112, 87);
+    margin-top: 10px;
+    width: 190px;
+    height: 55px;
+    color: white;
+    border: 1px solid rgb(189, 112, 87);
+    margin-left: 72px;
+}
+
+h4{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+footer{
+    border-top: 2px solid rgb(172, 172, 172);
+    position: relative;
+}
+
+footer img{
+    position: absolute;
+    left: 420px;
+    top: -30px;
+}
+
+footer p{
+    text-align: center;
+    margin: 12px;
+    font-size: 0.8rem;
+}
+
+footer p:first-of-type{
+    margin-top: 25px;
+}
+
+
+
