@@ -44,7 +44,7 @@ header section div{
 
 .stripe-background {
                 
-    background-image:url("./img/hr-img.png");
+    background-image:url("img/hr-img.png");
     background-repeat:repeat;
     height: 10px;
     z-index: 1;
@@ -93,14 +93,14 @@ header section div{
     text-align: justify;
     align-items: center;
     justify-content: space-around;
-    background-image: url("./img/list-bg.png");
+    background-image: url("img/list-bg.png");
     background-repeat: repeat-y;
     height: 300px;
    
 }
 #recipe ul {
     /* list-style: square; */
-    list-style-image: url("./img/checkBox2.png");
+    list-style-image: url("img/checkBox2.png");
     font-size: 1.5rem;
     background-size: 5px 5px;
     background-repeat: no-repeat;
