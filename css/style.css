@@ -3,6 +3,10 @@ body{
     margin: auto;
 }
 
+main {
+    
+}
+
 header section{
     display: flex;
     flex-flow: row;
@@ -16,4 +20,87 @@ header section div{
     position: relative;
     float: left;
     margin: 30px 15px ;
+}
+
+#line-of-images {
+    display: flex;
+    flex-flow: row;
+    flex-shrink: 0;
+    justify-content: flex-end;
+    align-items: center;
+    
+
+}
+#line-of-images img {
+    width: 30px;
+    height: 30px;
+    padding: 1px;
+    
+}
+
+#line-of-images img:nth-of-type(6) {
+    padding-right: 10px;
+}
+
+.stripe-background {
+                
+    background-image:url("/img/hr-img.png");
+    background-repeat:repeat;
+    height: 10px;
+    z-index: 1;
+}
+
+#main-header {
+    display: flex;
+    flex-flow: row;
+    padding-bottom: 30px;   
+}
+#main-header h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#main-header div {
+    width: 50%;
+    
+}
+
+#print-logo {
+    text-align: right;
+    
+}
+
+#blog {
+    padding: 20px 0px;
+    text-indent: 2em;
+}
+
+#recipe {
+    display: flex;
+    flex-flow: row;
+    text-align: justify;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("/img/list-bg.png");
+    background-repeat: repeat-y;
+    height: 300px;
+   
+}
+#recipe ul {
+    /* list-style: square; */
+    list-style-image: url("/img/checkBox2.png");
+    font-size: 1.5rem;
+    background-size: 5px 5px;
+    background-repeat: no-repeat;
+    padding-bottom: 33px;  
+     
+}
+#recipe ul li {
+    /* padding-top: 4px; */
+    padding-bottom: 8px;
+    
+}
+
+#second-stripe {
+    margin-top: 30px;
 }
