@@ -44,7 +44,7 @@ header section div{
 
 .stripe-background {
                 
-    background-image:url("img/mail-icon.png");
+    background-image:url("/img/hr-img.png");
     background-repeat:repeat;
     height: 10px;
     z-index: 1;
@@ -67,5 +67,35 @@ header section div{
 
 #print-logo {
     text-align: right;
+    
+}
+
+#blog {
+    padding: 20px 0px;
+    text-indent: 2em;
+}
+
+#recipe {
+    display: flex;
+    flex-flow: row;
+    text-align: justify;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("/img/list-bg.png");
+    background-repeat: repeat-y;
+    height: 300px;
+    
+}
+#recipe ul {
+    /* list-style: square; */
+    list-style-image: url("/img/checkBox2.png");
+    font-size: 1.5rem;
+    background-size: 5px 5px;
+    background-repeat: no-repeat;
+    padding-bottom: 33px;   
+}
+#recipe ul li {
+    /* padding-top: 4px; */
+    padding-bottom: 8px;
     
 }
